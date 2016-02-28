@@ -1,0 +1,18 @@
+body {
+    margin: 10px 25% 0;
+}
+
+#pll-image {
+    display: block;
+    margin: auto;
+}
+
+#pll-solution {
+    min-height: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#buttons-wrapper {
+    text-align: center;
+}
