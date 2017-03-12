@@ -1,86 +1,130 @@
-[
+{
+  "pll": [
     {
-        "name": "A-a",
-        "solution": ["x", "R2", "D2", "R", "U", "R'", "D2", "R", "U'", "R"]
+      "name": "A-a",
+      "solution": ["x", "z'", "R2", "U2", "R'", "D'", "R", "U2", "R'", "D", "R'"]
     },
     {
-        "name": "A-b",
-        "solution": ["x", "z'", "R2", "U2", "R'", "D'", "R", "U2", "R'", "D", "R'"]
+      "name": "A-b",
+      "solution": ["x", "R2", "D2", "R", "U", "R'", "D2", "R", "U'", "R"]
     },
     {
-        "name": "E",
-        "solution": ["R'", "F'", "L'", "F", "R", "F'", "L", "F", "R'", "F'", "L", "F", "R", "F'", "L'", "F"]
+      "name": "E",
+      "solution": ["R'", "F'", "L'", "F", "R", "F'", "L", "F", "R'", "F'", "L", "F", "R", "F'", "L'", "F"]
     },
     {
-        "name": "F",
-        "solution": ["U'", "R'", "U", "R", "U'", "R2", "F'", "U'", "F", "U", "R", "F", "R'", "F'", "R2"]
+      "name": "F",
+      "solution": ["U'", "R'", "U", "R", "U'", "R2", "F'", "U'", "F", "U", "R", "F", "R'", "F'", "R2"]
     },
     {
-        "name": "G-a",
-        "solution": ["y'", "R2", "u", "R'", "U", "R'", "U'", "R", "u'", "R2", "y", "L'", "U", "L"]
+      "name": "G-a",
+      "solution": ["y'", "R2", "u", "R'", "U", "R'", "U'", "R", "u'", "R2", "y", "L'", "U", "L"]
     },
     {
-        "name": "G-b",
-        "solution": ["L'", "U'", "L", "y'", "R2", "u", "R'", "U", "R", "U'", "R", "u'", "R2", "y"]
+      "name": "G-b",
+      "solution": ["L'", "U'", "L", "y'", "R2", "u", "R'", "U", "R", "U'", "R", "u'", "R2", "y"]
     },
     {
-        "name": "G-c",
-        "solution": ["y'", "R2", "u'", "R", "U'", "R", "U", "R'", "u", "R2", "y", "R'", "U'", "R"]
+      "name": "G-c",
+      "solution": ["y'", "R2", "u'", "R", "U'", "R", "U", "R'", "u", "R2", "y", "R'", "U'", "R"]
     },
     {
-        "name": "G-d",
-        "solution": ["R", "U", "R'", "y'", "R2", "u'", "R", "U'", "R'", "U", "R'", "u", "R2", "y'"]
+      "name": "G-d",
+      "solution": ["R", "U", "R'", "y'", "R2", "u'", "R", "U'", "R'", "U", "R'", "u", "R2", "y'"]
     },
     {
-        "name": "H",
-        "solution": ["M2", "U", "M2", "U2", "M2", "U", "M2"]
+      "name": "H",
+      "solution": ["M2", "U", "M2", "U2", "M2", "U", "M2"]
     },
     {
-        "name": "J-a",
-        "solution": ["L'", "U'", "L", "F", "L'", "U'", "L", "U", "L", "F'", "L2", "U", "L", "U"]
+      "name": "J-a",
+      "solution": ["L'", "U'", "L", "F", "L'", "U'", "L", "U", "L", "F'", "L2", "U", "L", "U"]
     },
     {
-        "name": "J-b",
-        "solution": ["R", "U", "R'", "F'", "R", "U", "R'", "U'", "R'", "F", "R2", "U'", "R'", "U'"]
+      "name": "J-b",
+      "solution": ["R", "U", "R'", "F'", "R", "U", "R'", "U'", "R'", "F", "R2", "U'", "R'", "U'"]
     },
     {
-        "name": "N-a",
-        "solution": ["R", "U'", "R'", "U", "l", "U", "F", "U'", "R'", "F'", "R", "U'", "R", "U", "l'", "U", "R'"]
+      "name": "N-a",
+      "solution": ["R", "U'", "R'", "U", "l", "U", "F", "U'", "R'", "F'", "R", "U'", "R", "U", "l'", "U", "R'"]
     },
     {
-        "name": "N-b",
-        "solution": ["R'", "U", "R", "U'", "R'", "F'", "U'", "F", "R", "U", "R'", "F", "R'", "F'", "R", "U'", "R"]
+      "name": "N-b",
+      "solution": ["R'", "U", "R", "U'", "R'", "F'", "U'", "F", "R", "U", "R'", "F", "R'", "F'", "R", "U'", "R"]
     },
     {
-        "name": "R-a",
-        "solution": ["L", "U2", "L'", "U2", "L", "F'", "L'", "U'", "L", "U", "L", "F", "L2", "U"]
+      "name": "R-a",
+      "solution": ["L", "U2", "L'", "U2", "L", "F'", "L'", "U'", "L", "U", "L", "F", "L2", "U"]
     },
     {
-        "name": "R-b",
-        "solution": ["R'", "U2", "R", "U2", "R'", "F", "R", "U", "R'", "U'", "R'", "F'", "R2", "U'"]
+      "name": "R-b",
+      "solution": ["R'", "U2", "R", "U2", "R'", "F", "R", "U", "R'", "U'", "R'", "F'", "R2", "U'"]
     },
     {
-        "name": "T",
-        "solution": ["R", "U", "R'", "U'", "R'", "F", "R2", "U'", "R'", "U'", "R", "U", "R'", "F'"]
+      "name": "T",
+      "solution": ["R", "U", "R'", "U'", "R'", "F", "R2", "U'", "R'", "U'", "R", "U", "R'", "F'"]
     },
     {
-        "name": "U-a",
-        "solution": ["F2", "U", "L", "R'", "F2", "L'", "R", "U", "F2"]
+      "name": "U-a",
+      "solution": ["F2", "U", "L", "R'", "F2", "L'", "R", "U", "F2"]
     },
     {
-        "name": "U-b",
-        "solution": ["F2", "U'", "L", "R'", "F2", "L'", "R", "U'", "F2"]
+      "name": "U-b",
+      "solution": ["F2", "U'", "L", "R'", "F2", "L'", "R", "U'", "F2"]
     },
     {
-        "name": "V",
-        "solution": ["R'", "U", "R'", "U'", "B'", "D", "B'", "D'", "B2", "R'", "B'", "R", "B", "R"]
+      "name": "V",
+      "solution": ["R'", "U", "R'", "U'", "B'", "D", "B'", "D'", "B2", "R'", "B'", "R", "B", "R"]
     },
     {
-        "name": "Y",
-        "solution": ["F", "R", "U'", "R'", "U'", "R", "U", "R'", "F'", "R", "U", "R'", "U'", "R'", "F", "R", "F'"]
+      "name": "Y",
+      "solution": ["F", "R", "U'", "R'", "U'", "R", "U", "R'", "F'", "R", "U", "R'", "U'", "R'", "F", "R", "F'"]
     },
     {
-        "name": "Z",
-        "solution": ["R'", "U'", "R2", "U", "R", "U", "R'", "U'", "R", "U", "R", "U'", "R", "U'", "R'", "U2"]
+      "name": "Z",
+      "solution": ["R'", "U'", "R2", "U", "R", "U", "R'", "U'", "R", "U", "R", "U'", "R", "U'", "R'", "U2"]
     }
-]
+  ],
+  "oll": [
+    {
+      "name": "adjacent",
+      "solution": ["F", "U", "R", "U'", "R'", "F'"]
+    },
+    {
+      "name": "anti-sune",
+      "solution": ["L'", "U'", "L", "U'", "L'", "U2", "L"]
+    },
+    {
+      "name": "blinker",
+      "solution": ["R2", "D", "R'", "U2", "R", "D'", "R'", "U2", "R'"]
+    },
+    {
+      "name": "bowtie",
+      "solution": ["R'", "F'", "L'", "F", "R", "F'", "L", "F"]
+    },
+    {
+      "name": "car",
+      "solution": ["R", "U", "R'", "U", "R", "U'", "R'", "U", "R", "U2", "R'"]
+    },
+    {
+      "name": "chameleon",
+      "solution": ["f", "R", "U", "R'", "U'", "f'", "F", "R", "U", "R'", "U'", "F'"]
+    },
+    {
+      "name": "headlights",
+      "solution": ["R2", "D", "R'", "U2", "R", "D'", "R'", "U2", "R'"]
+    },
+    {
+      "name": "none",
+      "solution": ["F", "R", "U", "R'", "U'", "F'", "f", "R", "U", "R'", "U'", "f'"]
+    },
+    {
+      "name": "opposite",
+      "solution": ["F", "R", "U", "R'", "U'", "F'"]
+    },
+    {
+      "name": "sune",
+      "solution": ["R", "U", "R'", "U", "R", "U2", "R'"]
+    }
+  ]
+}

@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rubik Trainer</title>
+  <meta charset="UTF-8">
+  <title>Rubik Trainer</title>
 
-    <link href="main.css" rel="stylesheet" />
-    <script src="./lib/jquery.min.js"></script>
-    <script src="main.js"></script>
+  <link href="main.css" rel="stylesheet" />
+  <script src="./lib/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
 </head>
 <body>
-    <img id="pll-image" src="">
-    <div id="pll-solution"></div>
-    <div id="buttons-wrapper">
-        <button id="hint" title="Hint (H)">Hint</button>
-        <button id="show" title="Show (S)">Show</button>
-        <button id="next" title="Next (N)">Next</button>
-    </div>
+  <img id="image" src="">
+  <div id="solution"></div>
+  <div id="buttons-wrapper">
+    <button id="hint" title="Hint (H)">Hint</button>
+    <button id="show" title="Show (S)">Show</button>
+    <button id="next" title="Next (N)">Next</button>
+  </div>
+
+  <div class="step-radios">
+    <label>
+      <input name="step" id="step-oll" type="radio"> OLL
+    </label>
+    <label>
+      <input name="step" id="step-pll" type="radio" checked> PLL
+    </label>
+  </div>
 </body>
 </html>
