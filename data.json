@@ -108,7 +108,7 @@
     },
     {
       "name": "chameleon",
-      "solution": ["f", "R", "U", "R'", "U'", "f'", "F", "R", "U", "R'", "U'", "F'"]
+      "solution": ["L", "F", "R'", "F'", "L'", "F", "R", "F'"]
     },
     {
       "name": "headlights",
