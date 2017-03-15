@@ -96,7 +96,7 @@
     },
     {
       "name": "blinker",
-      "solution": ["R2", "D", "R'", "U2", "R", "D'", "R'", "U2", "R'"]
+      "solution": [ "R", "U'", "L'", "U", "R'", "U", "L", "U", "L'", "U", "L"]
     },
     {
       "name": "bowtie",
@@ -108,7 +108,7 @@
     },
     {
       "name": "chameleon",
-      "solution": ["L", "F", "R'", "F'", "L'", "F", "R", "F'"]
+      "solution": ["R'", "F'", "L", "F", "R", "F'", "L'", "F"]
     },
     {
       "name": "headlights",
